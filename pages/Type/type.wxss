@@ -1,0 +1,33 @@
+.sidemenu {
+    width: 20%;
+}
+.content {
+    width: 80%;
+}
+
+.sidemenu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.sidemenu li a {
+    margin-bottom: 4px;
+    display: block;
+    padding: 8px;
+    background-color: #eee;
+    text-decoration: none;
+    color: #666;
+}
+.sidemenu li a:hover {
+    background-color: #555;
+    color: white;
+}
+.sidemenu li a.active {
+    background-color: #008CBA;
+    color: white;
+}
+.column {
+    float: left;
+  
+    padding: 15px;
+}

@@ -1,0 +1,57 @@
+{
+  "pages":[
+    "pages/Home/home",
+    "pages/Type/type",
+    "pages/me/me",
+    "pages/Shopping/shopping",
+    "pages/logs/logs"
+   
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "同创",
+    
+    "navigationBarTextStyle":"black"
+  }
+  ,
+  "tabBar": {
+    "color": "#a9b7b7",
+    "borderStyle":"black",
+    "selectedColor": "#0089cf",
+    "list": [
+      {
+        "pagePath": "pages/Home/home",
+        "text": "首页",
+      
+        "iconPath": "Picture/Home_noSelect.jpg",
+        "selectedIconPath": "Picture/Home_Select.jpg"
+      },
+      {
+        "pagePath": "pages/Type/type",
+        "text": "分类",
+       
+        "iconPath": "Picture/TypeNoSelect.jpg",
+     
+        "selectedIconPath": "Picture/TypeSelect.jpg"
+      }
+      ,
+      {
+        "pagePath": "pages/Shopping/shopping",
+        "text": "购物车",
+       
+        "iconPath": "Picture/ShoppingNoSelect.jpg",
+        "selectedIconPath": "Picture/ShoppingSelect.jpg"
+      }
+      ,
+      {
+        "pagePath": "pages/me/me",
+        "text": "我的",
+        "color": "ff0000",
+        "selectedColor": "00ff00",
+        "iconPath": "Picture/MeNoSelect.jpg",
+        "selectedIconPath": "Picture/MeSelect.jpg"
+      }
+    ]
+  }
+}

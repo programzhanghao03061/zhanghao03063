@@ -1,0 +1,14 @@
+
+
+ <view class="column sidemenu">
+    <view>
+      <li><a href="#flight" class="active">黄金</a></li>
+      <li><a href="#city" >钻石</a></li>
+      <li><a href="#island">翡翠</a></li>
+      <li><a href="#food">和田玉</a></li>
+      <li><a href="#people">彩金</a></li>
+      <li><a href="#history">彩宝</a></li>
+      <li><a href="#oceans">珍珠</a></li>
+      <li><a href="#oceans">礼品</a></li>
+    </view>
+  </view>
