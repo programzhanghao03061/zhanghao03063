@@ -1,0 +1,50 @@
+<swiper class="swiper" indicator-dots="true" catchtap="onItemClick" autoplay="true" interval="5000" duration="1000">    
+      <block wx:for="{{movies}}" wx:for-index="index">    
+        <swiper-item>    
+          <image src="{{item.url}}"  data-postId="{{item.id}}" class="slide-image" mode="aspectFill"/>    
+        </swiper-item>    
+      </block>    
+    </swiper>
+    <view   style='padding: 20rpx 10rpx 25rpx 30rpx' >
+    <view>18K金钻石珐琅海水珍珠吊附 （定制）</view>
+    <view class="price_text">￥36800</view>
+    </view>
+
+
+    <view class="header flex-row space-around">
+    <view class="tab {{nowtab=='图文详情' ? 'tabActive' : ''}}" bindtap="switchTabs" data-nowtab='图文详情' >图文详情</view>
+    <view class="tab {{nowtab=='规格参数' ? 'tabActive' : ''}}" bindtap="switchTabs" data-nowtab='规格参数' >规格参数</view>
+    <view class="tab {{nowtab=='包装清单' ? 'tabActive' : ''}}" bindtap="switchTabs" data-nowtab='包装清单' >包装清单</view>
+    <view class="tab {{nowtab=='售后服务' ? 'tabActive' : ''}}" bindtap="switchTabs" data-nowtab='售后服务' >售后服务</view>
+  </view>
+
+  <view class="content"  wx:if="{{nowtab=='图文详情' }}">
+
+
+    <view class="topContent flex-row v-center">
+      <view class="goodsImg"><image src="../../Picture/3.jpg" class="full-img" mode="aspectFit"></image></view>
+     
+    </view>
+
+
+    
+    <view class="topContent flex-row v-center">
+      <view class="goodsImg"><image src="../../Picture/4.jpg" class="full-img" mode="aspectFit"></image></view>
+     
+    </view>
+    <view class="topContent flex-row v-center">
+      <view class="goodsImg"><image src="../../Picture/6.jpg" class="full-img" mode="aspectFit"></image></view>
+     
+    </view>
+    <view class="topContent flex-row v-center">
+      <view class="goodsImg"><image src="../../Picture/20.jpg" class="full-img" mode="aspectFit"></image></view>
+     
+    </view>
+    <view class="topContent flex-row v-center">
+      <view class="goodsImg"><image src="../../Picture/21.jpg" class="full-img" mode="aspectFit"></image></view>
+     
+    </view>
+
+
+    
+  </view>

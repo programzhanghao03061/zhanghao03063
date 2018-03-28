@@ -4,13 +4,15 @@
     "pages/Type/type",
     "pages/me/me",
     "pages/Shopping/shopping",
-    "pages/logs/logs"
+    "pages/GoodsList/goodslist",
+    "pages/logs/logs",
+    "pages/GoodsDetail/goodsdetail"
    
   ],
   "window":{
     "backgroundTextStyle":"light",
     "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "同创",
+    "navigationBarTitleText": "珠宝生活馆",
     
     "navigationBarTextStyle":"black"
   }

@@ -1,0 +1,30 @@
+.topContent {
+  padding: 30rpx 20rpx;
+}
+
+.goodsImg {
+  width: 200rpx;
+  height: 200rpx;
+  margin-right: 20rpx;
+}
+
+.rightContent {
+  width: 450rpx;
+}
+
+.background {
+  width: 100%;
+  height: 100%;
+  
+}
+
+.splite_line{
+  height:  20px;
+  width: 100%;
+
+}
+.price_text{
+  color: red;
+  font-size: 70rpx;
+  font-family: "黑体"
+}
