@@ -27,8 +27,16 @@ Page({
     nowtab: '图文详情'
   },
 
+  
 
-
-  onLoad: function () {
+  onLoad: function (data) {
+    this.setData({
+      nowtab: data.toTab
+    })
+  },
+  switchTabs: function (el) {
+    this.setData({
+      nowtab: el.currentTarget.dataset.nowtab
+    })
   }
 })  

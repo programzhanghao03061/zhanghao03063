@@ -1,64 +1,63 @@
-<view class="background" style="background-image: url('../../Picture/goodslist_background.jpg')">
-  <view class="topContent flex-row v-center" style='background: white'  catchtap="onItemClick">
+
+  <view class="topContent flex-row v-center" style='background: white' catchtap="onItemClick">
     <view class="goodsImg">
       <image src="/Picture/9.jpg" class="full-img" mode="aspectFit"></image>
     </view>
     <view class="rightContent">
       <view>18K金钻石珐琅海水珍珠吊坠（定制）</view>
-      <view class="price_text" style='padding: 20rpx 10rpx 25rpx 10rpx' >￥36800</view>
+      <view class="price_text" style='padding: 20rpx 10rpx 25rpx 10rpx'>￥36800</view>
       <!-- <view>{{item.goodsName}}</view>
         <view>{{item.goodsNum}}</view> -->
     </view>
   </view>
 
-<view class="splite_line"></view>
+  <view class="splite_line"></view>
 
-  <view class="topContent flex-row v-center" style='background: white'  catchtap="onItemClick">
+  <view class="topContent flex-row v-center" style='background: white' catchtap="onItemClick">
     <view class="goodsImg">
       <image src="/Picture/10.jpg" class="full-img" mode="aspectFit"></image>
     </view>
     <view class="rightContent">
       <view>18K金钻石珐琅海水珍珠吊坠（定制）</view>
-      <view class="price_text" style='padding: 20rpx 10rpx 25rpx 10rpx' >￥36800</view>
+      <view class="price_text" style='padding: 20rpx 10rpx 25rpx 10rpx'>￥36800</view>
       <!-- <view>{{item.goodsName}}</view>
         <view>{{item.goodsNum}}</view> -->
     </view>
   </view>
-<view class="splite_line"></view>
-  <view class="topContent flex-row v-center" style='background: white'  catchtap="onItemClick">
+  <view class="splite_line"></view>
+  <view class="topContent flex-row v-center" style='background: white' catchtap="onItemClick">
     <view class="goodsImg">
       <image src="/Picture/11.jpg" class="full-img" mode="aspectFit"></image>
     </view>
     <view class="rightContent">
       <view>18K金钻石珐琅海水珍珠吊坠（定制）</view>
-      <view class="price_text" style='padding: 20rpx 10rpx 25rpx 10rpx' >￥36800</view>
+      <view class="price_text" style='padding: 20rpx 10rpx 25rpx 10rpx'>￥36800</view>
       <!-- <view>{{item.goodsName}}</view>
         <view>{{item.goodsNum}}</view> -->
     </view>
   </view>
-<view class="splite_line"></view>
+  <view class="splite_line"></view>
   <view class="topContent flex-row v-center" style='background: white' catchtap="onItemClick">
     <view class="goodsImg">
       <image src="/Picture/12.jpg" class="full-img" mode="aspectFit"></image>
     </view>
     <view class="rightContent">
       <view>18K金钻石珐琅海水珍珠吊坠（定制）</view>
-      <view class="price_text" style='padding: 20rpx 10rpx 25rpx 10rpx' >￥36800</view>
+      <view class="price_text" style='padding: 20rpx 10rpx 25rpx 10rpx'>￥36800</view>
       <!-- <view>{{item.goodsName}}</view>
         <view>{{item.goodsNum}}</view> -->
     </view>
   </view>
-<view class="splite_line"></view>
+  <view class="splite_line"></view>
   <view class="topContent flex-row v-center" style='background: white' catchtap="onItemClick">
     <view class="goodsImg">
       <image src="/Picture/13.jpg" class="full-img" mode="aspectFit"></image>
     </view>
     <view class="rightContent">
       <view>18K金钻石珐琅海水珍珠吊坠（定制）</view>
-      <view class="price_text" style='padding: 20rpx 10rpx 25rpx 10rpx' >￥36800</view>
+      <view class="price_text" style='padding: 20rpx 10rpx 25rpx 10rpx'>￥36800</view>
       <!-- <view>{{item.goodsName}}</view>
         <view>{{item.goodsNum}}</view> -->
     </view>
   </view>
-<view class="splite_line"></view>
-</view>
+  <view class="splite_line"></view>

@@ -86,7 +86,13 @@ Page({
       });
     }
   },
+ onItemClick: function (event) {
 
+    wx.navigateTo({
+      url: '../GoodsDetail/goodsdetail'
+    })
+    
+  },
   goTop: function () {
     this.setData({
       scrollTop: 0,

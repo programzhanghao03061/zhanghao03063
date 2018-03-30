@@ -1,38 +1,73 @@
 .swiper {
-   height:  300px;
+  height: 300px;
   width: 100%;
-  text-align:center
-}
-.swiper image {
-  height:  300px;
-  width: 100%;
-}
-.price_text{
-  color: red;
-  
+  text-align: center;
 }
 
-.header{
-  border-top: 1px solid #E3E3E3;
+.swiper image {
+  height: 300px;
+  width: 100%;
+}
+
+.price_text {
+  color: red;
+}
+
+.header {
+  border-top: 1px solid #e3e3e3;
   background: white;
 }
-.tab{
+
+.tab {
   padding: 20rpx 0;
-  width: 150rpx;
+  width: 188rpx;
   text-align: center;
-  border-bottom: 2px solid #dedede;   
-}
-.topContent{
-  padding: 20rpx 0rpx;  
-  width: 100%;
-}
-.content{
-  background: white;  
-    margin-bottom: 20rpx;
+  border-bottom: 2px solid #dedede;
 }
 
-.goodsImg{
+.topContent {
+  padding: 20rpx 0rpx;
+  width: 100%;
+}
+
+.content {
+  background: white;
+  margin-bottom: 20rpx;
+}
+
+.goodsImg {
   width: 100vh;
-  height: 700rpx;  
- 
+  height: 700rpx;
+}
+
+.tabActive {
+  border-bottom: 2px solid #e4393c;
+  color: #e4393c;
+}
+
+.address-add {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.empty_tip {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center; /*垂直居中*/
+  justify-content: center; /*水平居中*/
+}
+
+.buttonSize {
+  padding: 10rpx 0rpx 0rpx 20rpx;
+  height: 15px;
+  width: 15px;
+}
+
+.textSize {
+  font-size: 12px;
+  height: 30px;
+  width: 40px;
+  padding: 0rpx 0rpx 10rpx 20rpx;
 }

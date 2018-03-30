@@ -1,32 +1,22 @@
-<view class="header flex-col h-center v-center">
-  <image class="avatar" src="{{userInfo.avatarUrl}}"></image>
-  <view class="level fs-16">门店经理</view>
-  <view class="level exp fs-16">0/100</view>
-  <text class="nickname">{{userInfo.nickName}}</text>
+<!-- <icon type="success" size="40" color="red" /> -->
+<!-- <icon type="clear" size="40" /> -->
+
+<view class="splite_line;"></view>
+
+<view class="topContent flex-row v-center" style='background: white' catchtap="onItemClick">
+  <view class="goodsImg select_size">
+    <icon type="success" size="30" color="red" />
+  </view>
+
+    <view class="goodsImg good_size">
+   <image src="/Picture/10.jpg" class="full-img" mode="aspectFit"></image>
+  </view>
+  <view class="rightContent">
+    <view class="name_text">18K金钻石珐琅海水珍珠吊坠（定制）</view>
+    <view class="price_text" style='padding: 30rpx 10rpx 25rpx 10rpx'>￥36800</view>
+    <!-- <view>{{item.goodsName}}</view>
+        <view>{{item.goodsNum}}</view> -->
+  </view>
 </view>
 
-<view class="content flex-row" bindtap="toOrderList" data-totab="全部订单">
-  <image src="../../Picture/order.png" class="sm-img"></image>
-  <text>全部订单</text>
-  <image src="../../Picture/right.png" class="sm-img pull-right"></image>
-</view>
-
-<view class="content flex-row" bindtap="toOrderList" data-totab="待付款">
-  <image src="../../Picture/paying.png" class="sm-img"></image>
-  <text>待付款</text>
-  <image src="../../Picture/right.png" class="sm-img pull-right"></image>
-</view>
-
-
-
-<view class="content flex-row" bindtap="toOrderList" data-totab="待收货">
-  <image src="../../Picture/car.png" class="sm-img"></image>
-  <text>待收货</text>
-  <image src="../../Picture/right.png" class="sm-img pull-right"></image>
-</view>
-
-<view class="content flex-row" bindtap="toAddr">
-  <image src="../../Picture/addr.png" class="sm-img"></image>
-  <text>收货地址</text>
-  <image src="../../Picture/right.png" class="sm-img pull-right"></image>
-</view>
+<view class="splite_line"></view>

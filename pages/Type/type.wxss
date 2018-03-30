@@ -1,15 +1,23 @@
 .sidemenu {
     width: 20%;
 }
-.content {
-    width: 80%;
-}
 
-.sidemenu ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-}
+  
+/*右侧栏主盒子*/  
+.nav_right{  
+  /*右侧盒子使用了绝对定位*/  
+  position: absolute;  
+  top: 0;  
+  right: 0;  
+  flex: 1;  
+  /*宽度75%，高度占满，并使用百分比布局*/  
+  width: 80%;  
+  height: 100%;  
+  padding: 10px;  
+  box-sizing: border-box;  
+  background: #fff;  
+} 
+
 .sidemenu li a {
     margin-bottom: 4px;
     display: block;
@@ -19,7 +27,7 @@
     color: #666;
 }
 .sidemenu li a:hover {
-    background-color: #555;
+    background-color: #008CBA;
     color: white;
 }
 .sidemenu li a.active {
@@ -28,6 +36,34 @@
 }
 .column {
     float: left;
-  
     padding: 15px;
 }
+
+
+
+
+
+/*右侧栏list的item*/  
+.nav_right .nav_right_items{  
+  /*浮动向左*/  
+  float: left;  
+  /*每个item设置宽度是33.33%*/  
+  width: 50%;  
+  height: 150px;  
+  text-align: center;  
+}  
+.nav_right .nav_right_items image{  
+  /*被图片设置宽高*/  
+  width: 120px;  
+  height: 120px;  
+}  
+.nav_right .nav_right_items text{  
+  /*给text设成块级元素*/  
+  display: block;  
+  
+  font-size: 15px;  
+  /*设置文字溢出部分为...*/  
+  overflow: hidden;  
+  white-space: nowrap;  
+  text-overflow: ellipsis;  
+}  

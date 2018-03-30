@@ -1,14 +1,63 @@
+<view class="column sidemenu">
+  <view>
+    <li>
+      <a href="#flight" class="active">黄金</a>
+    </li>
+    <li>
+      <a href="#city">钻石</a>
+    </li>
+    <li>
+      <a href="#island">翡翠</a>
+    </li>
+    <li>
+      <a href="#food">和田玉</a>
+    </li>
+    <li>
+      <a href="#people">彩金</a>
+    </li>
+    <li>
+      <a href="#history">彩宝</a>
+    </li>
+    <li>
+      <a href="#oceans">珍珠</a>
+    </li>
+    <li>
+      <a href="#oceans">礼品</a>
+    </li>
+  </view>
+</view>
 
 
- <view class="column sidemenu">
-    <view>
-      <li><a href="#flight" class="active">黄金</a></li>
-      <li><a href="#city" >钻石</a></li>
-      <li><a href="#island">翡翠</a></li>
-      <li><a href="#food">和田玉</a></li>
-      <li><a href="#people">彩金</a></li>
-      <li><a href="#history">彩宝</a></li>
-      <li><a href="#oceans">珍珠</a></li>
-      <li><a href="#oceans">礼品</a></li>
+< view class="nav_right">
+
+  
+    <view class="nav_right_items"  catchtap="onItemClick">
+        <block>
+          <image src="../../Picture/9.jpg"></image>
+        </block>
+        <text>18K 金钻石</text>
     </view>
+  
+
+    <view class="nav_right_items"  catchtap="onItemClick">
+        <block>
+          <image src="../../Picture/11.jpg"></image>
+        </block>
+        <text>南洋珍珠</text>
+    </view>
+
+    <view class="nav_right_items"  catchtap="onItemClick">
+        <block>
+          <image src="../../Picture/12.jpg"></image>
+        </block>
+        <text>18K 金钻石胸针</text>
+     
+    </view>
+    <view class="nav_right_items"  catchtap="onItemClick">
+        <block>
+          <image src="../../Picture/11.jpg"></image>
+        </block>
+        <text>南洋珍珠</text>
+    </view>
+
   </view>
