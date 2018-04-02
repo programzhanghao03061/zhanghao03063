@@ -122,11 +122,7 @@
   width: 120rpx;
 }
 
-.cart-no-data {
-  padding: 40rpx 0;
-  color: #999;
-  text-align: center;
-}
+
 
 .cart-list .cart-count-box {
   position: absolute;
@@ -140,14 +136,6 @@
   margin: 0 auto;
 }
 
-.cart-count-box text {
-  width: 19px;
-  height: 26px;
-  text-align: center;
-  font-size: 12px;
-  margin: auto;
-  float: left;
-}
 
 /*数值*/
 
@@ -161,4 +149,39 @@
   /*给中间的input设置左右边框即可*/
   border-left: 1px solid #ccc;
   border-right: 1px solid #ccc;
+}
+.empty_tip{
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  display:flex;
+  flex-direction:column;
+  align-items:center;/*垂直居中*/
+  justify-content: center;/*水平居中*/
+}
+
+
+.cart-count-box text {
+  width: 19px;
+  height: 26px;
+  text-align: center;
+  font-size: 12px;
+  margin: auto;
+  float: left;
+}
+.order-icon{
+    position: absolute;
+    right: 40rpx;
+    top: 25rpx;
+    width: 45rpx;
+    height: 45rpx;
+}
+.order-icon image,.order-icon navigator{
+  display: block;
+  width: 45rpx;
+  height: 45rpx;
+}
+.cart-toatl-price{
+    float: right;
+    width: 120rpx;
 }
