@@ -1,12 +1,12 @@
 .cart-box {
-  padding-bottom: 100rpx;
+  padding-bottom: 0rpx;
 }
 
 .cart-list {
   position: relative;
   padding: 20rpx 20rpx 20rpx 285rpx;
   height: 185rpx;
-  border-bottom: 1rpx solid #e9e9e9;
+  border-bottom: 15rpx solid #f1f2f6;
 }
 
 .cart-list .cart-pro-select {
@@ -87,18 +87,27 @@
   bottom: 0;
   left: 0;
   width: 100%;
-  height: 90rpx;
-  line-height: 90rpx;
-  padding: 0 100rpx 0 80rpx;
+  height: 120rpx;
+  line-height: 70rpx;
+  padding: 0 100rpx 0 90rpx;
   box-sizing: border-box;
-  background: #ab956d;
-  color: #fff;
+  background: #f1f2f6;
+  color: #000;
+}
+
+.cart-text-All {
+  position: absolute;
+  left: 70rpx;
+  top: 25rpx;
+  text-align: center;
+  height: 120rpx;
+  width: 120rpx;
 }
 
 .total-select {
   position: absolute;
   left: 20rpx;
-  top: 25rpx;
+  top: 35rpx;
   width: 45rpx;
   height: 45rpx;
 }
@@ -117,13 +126,6 @@
   height: 45rpx;
 }
 
-.cart-toatl-price {
-  float: right;
-  width: 120rpx;
-}
-
-
-
 .cart-list .cart-count-box {
   position: absolute;
   right: 20rpx;
@@ -135,7 +137,6 @@
   border-radius: 3px;
   margin: 0 auto;
 }
-
 
 /*数值*/
 
@@ -150,16 +151,16 @@
   border-left: 1px solid #ccc;
   border-right: 1px solid #ccc;
 }
-.empty_tip{
+
+.empty_tip {
   position: fixed;
   height: 100%;
   width: 100%;
-  display:flex;
-  flex-direction:column;
-  align-items:center;/*垂直居中*/
-  justify-content: center;/*水平居中*/
+  display: flex;
+  flex-direction: column;
+  align-items: center; /*垂直居中*/
+  justify-content: center; /*水平居中*/
 }
-
 
 .cart-count-box text {
   width: 19px;
@@ -169,19 +170,65 @@
   margin: auto;
   float: left;
 }
-.order-icon{
-    position: absolute;
-    right: 40rpx;
-    top: 25rpx;
-    width: 45rpx;
-    height: 45rpx;
+
+.order-icon {
+  position: absolute;
+  right: 40rpx;
+  top: 25rpx;
+  width: 45rpx;
+  height: 45rpx;
 }
-.order-icon image,.order-icon navigator{
+
+.order-icon image, .order-icon navigator {
   display: block;
   width: 45rpx;
   height: 45rpx;
 }
-.cart-toatl-price{
-    float: right;
-    width: 120rpx;
+
+.cart-toatl-price {
+  position: absolute;
+  left: 190rpx;
+  top: 5rpx;
+  font-size: 18px;
+  height: 45rpx;
+  width: 420rpx;
+}
+
+.cart-reduce {
+  position: absolute;
+  left: 190rpx;
+  top: 52rpx;
+  font-size: 12px;
+  height: 45rpx;
+  color: gray;
+  width: 540rpx;
+}
+
+
+.cart-cleaning {
+  position: absolute;
+  right: 0rpx;
+
+  top: 0rpx;
+ 
+  height: 120rpx;
+  color: white;
+   background: #ff0000;
+  width: 210rpx;
+}
+
+.cart-cleaning-text{
+ position: absolute;
+   left:10rpx;
+  top: 30rpx;
+  font-size: 13px;
+  height: 120rpx;
+  color: white;
+
+  width: 180rpx;
+}
+.main_back {
+  background: gray;
+  height: 100%;
+  width: 100%;
 }

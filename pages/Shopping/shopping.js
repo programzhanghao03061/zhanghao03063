@@ -4,6 +4,7 @@ Page({
     carts: [],               // 购物车列表
     hasList: false,          // 列表是否有数据
     totalPrice: 0,           // 总价，初始为0
+    totalNumber: 0,           // 总价，初始为0
     selectAllStatus: true,    // 全选状态，默认全选
     obj: {
       name: "hello"
@@ -111,14 +112,17 @@ Page({
   getTotalPrice() {
     let carts = this.data.carts;                  // 获取购物车列表
     let total = 0;
+    let total_Number = 0;
     for (let i = 0; i < carts.length; i++) {         // 循环列表得到每个数据
       if (carts[i].selected) {                     // 判断选中才会计算价格
         total += carts[i].num * carts[i].price;   // 所有价格加起来
+        total_Number += carts[i].num;
       }
     }
     this.setData({                                // 最后赋值到data中渲染到页面
       carts: carts,
-      totalPrice: total.toFixed(2)
+      totalPrice: total.toFixed(2),
+      totalNumber: total_Number
     });
   }
 
