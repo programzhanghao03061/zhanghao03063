@@ -1,51 +1,46 @@
 {
-  "pages":[
+  "pages": [
     "pages/Home/home",
     "pages/Type/type",
     "pages/MY/me/me",
     "pages/Shopping/shopping",
     "pages/GoodsList/goodslist",
     "pages/logs/logs",
-    "pages/GoodsDetail/goodsdetail"
-   
+    "pages/GoodsDetail/goodsdetail",
+    "pages/MY/MyOrder/myorder",
+    "pages/MY/MyAdd/myadd",
+    "pages/MY/NewAdd/newadd",
+    "pages/MY/Coupon/coupon"
   ],
-  "window":{
-    "backgroundTextStyle":"light",
+  "window": {
+    "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
     "navigationBarTitleText": "珠宝生活馆",
-    
-    "navigationBarTextStyle":"black"
-  }
-  ,
+    "navigationBarTextStyle": "black"
+  },
   "tabBar": {
     "color": "#a9b7b7",
-    "borderStyle":"black",
+    "borderStyle": "black",
     "selectedColor": "#0089cf",
     "list": [
       {
         "pagePath": "pages/Home/home",
         "text": "首页",
-      
         "iconPath": "Picture/Home_noSelect.jpg",
         "selectedIconPath": "Picture/Home_Select.jpg"
       },
       {
         "pagePath": "pages/Type/type",
         "text": "分类",
-       
         "iconPath": "Picture/TypeNoSelect.jpg",
-     
         "selectedIconPath": "Picture/TypeSelect.jpg"
-      }
-      ,
+      },
       {
         "pagePath": "pages/Shopping/shopping",
         "text": "购物车",
-       
         "iconPath": "Picture/ShoppingNoSelect.jpg",
         "selectedIconPath": "Picture/ShoppingSelect.jpg"
-      }
-      ,
+      },
       {
         "pagePath": "pages/MY/me/me",
         "text": "我的",

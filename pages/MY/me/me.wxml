@@ -10,7 +10,7 @@
 <view class="container">
   <view class="user-menu">
     <view class="item">
-      <navigator url="/pages/Home/home" class="a">
+      <navigator url="/pages/MY/MyOrder/myorder" class="a">
         <text class="icon order"></text>
         <text class="txt">我的订单</text>
       </navigator>
@@ -22,13 +22,13 @@
       </navigator>
     </view>
     <view class="item no-border">
-      <navigator url="url" class="a">
+      <navigator url="/pages/MY/MyAdd/myadd" class="a">
         <text class="icon gift"></text>
         <text class="txt">收货地址</text>
       </navigator>
     </view>
     <view class="item">
-      <navigator url="/pages/Home/home" class="a">
+      <navigator url="/pages/MY/Coupon/coupon" class="a">
         <text class="icon address"></text>
         <text class="txt">优惠劵</text>
       </navigator>
