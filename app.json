@@ -2,7 +2,7 @@
   "pages":[
     "pages/Home/home",
     "pages/Type/type",
-    "pages/me/me",
+    "pages/MY/me/me",
     "pages/Shopping/shopping",
     "pages/GoodsList/goodslist",
     "pages/logs/logs",
@@ -47,7 +47,7 @@
       }
       ,
       {
-        "pagePath": "pages/me/me",
+        "pagePath": "pages/MY/me/me",
         "text": "我的",
         "color": "ff0000",
         "selectedColor": "00ff00",

@@ -91,7 +91,7 @@
   line-height: 70rpx;
   padding: 0 100rpx 0 90rpx;
   box-sizing: border-box;
-  background: #f1f2f6;
+  background: white;
   color: #000;
 }
 
@@ -135,7 +135,9 @@
   /*给主容器设一个边框*/
   border: 1px solid #ccc;
   border-radius: 3px;
-  margin: 0 auto;
+  
+  display: flex;
+  align-items: center;
 }
 
 /*数值*/
@@ -204,31 +206,27 @@
   width: 540rpx;
 }
 
-
 .cart-cleaning {
   position: absolute;
   right: 0rpx;
-
   top: 0rpx;
- 
   height: 120rpx;
   color: white;
-   background: #ff0000;
+  background: #f00;
   width: 210rpx;
 }
 
-.cart-cleaning-text{
- position: absolute;
-   left:10rpx;
+.cart-cleaning-text {
+  position: absolute;
+  left: 10rpx;
   top: 30rpx;
   font-size: 13px;
   height: 120rpx;
   color: white;
-
   width: 180rpx;
 }
+
 .main_back {
-  background: gray;
-  height: 100%;
-  width: 100%;
+  height: 30rem;
+  background: #f1f2f6;
 }
