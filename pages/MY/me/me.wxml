@@ -40,7 +40,7 @@
       </navigator>
     </view>
     <view class="item no-border">
-      <navigator url="url" class="a">
+      <navigator url="/pages/MY/BusinessAdd/business_add" class="a">
         <text class="icon kefu"></text>
         <text class="txt">卖家地址</text>
       </navigator>

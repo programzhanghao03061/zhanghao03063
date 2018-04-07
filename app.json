@@ -10,7 +10,8 @@
     "pages/MY/MyOrder/myorder",
     "pages/MY/MyAdd/myadd",
     "pages/MY/NewAdd/newadd",
-    "pages/MY/Coupon/coupon"
+    "pages/MY/Coupon/coupon",
+    "pages/MY/BusinessAdd/business_add"
   ],
   "window": {
     "backgroundTextStyle": "light",
