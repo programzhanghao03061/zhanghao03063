@@ -1,7 +1,116 @@
-<swiper class="swiper" indicator-dots="true" catchtap="onItemClick" autoplay="true" interval="5000" duration="1000">    
-      <block wx:for="{{movies}}" wx:for-index="index">    
-        <swiper-item>    
-          <image src="{{item.url}}"  data-postId="{{item.id}}" class="slide-image" mode="aspectFill"/>    
-        </swiper-item>    
-      </block>    
-    </swiper>
+<swiper class="swiper" indicator-dots="true" catchtap="onItemClick" autoplay="true" interval="5000" duration="1000">
+  <block wx:for="{{movies}}" wx:for-index="index">
+    <swiper-item>
+      <image src="{{item.url}}" data-postId="{{item.id}}" class="slide-image" mode="aspectFill" />
+    </swiper-item>
+  </block>
+</swiper>
+
+<view class="button">
+  <view class="nav_right_items" catchtap="onItemClick">
+    <block>
+      <image src="../../Picture/9.jpg"></image>
+    </block>
+    <text>结緍戒指</text>
+  </view>
+
+
+  <view class="nav_right_items" catchtap="onItemClick">
+    <block>
+      <image src="../../Picture/11.jpg"></image>
+    </block>
+    <text>钻石对戒</text>
+  </view>
+
+  <view class="nav_right_items" catchtap="onItemClick">
+    <block>
+      <image src="../../Picture/12.jpg"></image>
+    </block>
+    <text>钻石男戒</text>
+
+  </view>
+  <view class="nav_right_items" catchtap="onItemClick">
+    <block>
+      <image src="../../Picture/11.jpg"></image>
+    </block>
+    <text>吊坠</text>
+  </view>
+
+  <view class="nav_right_items" catchtap="onItemClick">
+    <block>
+      <image src="../../Picture/9.jpg"></image>
+    </block>
+    <text>套链</text>
+  </view>
+
+
+  <view class="nav_right_items" catchtap="onItemClick">
+    <block>
+      <image src="../../Picture/11.jpg"></image>
+    </block>
+    <text>时尚钻戒</text>
+  </view>
+
+  <view class="nav_right_items" catchtap="onItemClick">
+    <block>
+      <image src="../../Picture/12.jpg"></image>
+    </block>
+    <text>耳鉓</text>
+
+  </view>
+  <view class="nav_right_items" catchtap="onItemClick">
+    <block>
+      <image src="../../Picture/11.jpg"></image>
+    </block>
+    <text>手链</text>
+  </view>
+</view>
+<view class="status_column">
+  <text class="status_column_text">. 热 销 推 荐 .</text>
+  <text class="status_column_text" style='padding: 10px 0px 0px 0px;'>--- FASHION ---</text>
+</view>
+
+<view class="backView">
+  <view bindtap="goHome" class="warp">
+    <image src="http://www.runoob.com//wp-content/uploads/2015/06/img_flowers.jpg"></image>
+    <text class="name">名称: 钻石吊坠</text>
+    <text class="price">
+    <text style="color:#0000f1">RMB </text> 1288
+    <text style="color:#000091">立即购卖</text></text>
+    <!-- 倒计时 -->
+  </view>
+</view>
+
+
+< view class="nav_right">
+
+
+  <view class="nav_right_items" catchtap="onItemClick">
+    <block>
+      <image src="../../Picture/9.jpg"></image>
+    </block>
+    <text>18K 金钻石</text>
+  </view>
+
+
+  <view class="nav_right_items" catchtap="onItemClick">
+    <block>
+      <image src="../../Picture/11.jpg"></image>
+    </block>
+    <text>南洋珍珠</text>
+  </view>
+
+  <view class="nav_right_items" catchtap="onItemClick">
+    <block>
+      <image src="../../Picture/12.jpg"></image>
+    </block>
+    <text>18K 金钻石胸针</text>
+
+  </view>
+  <view class="nav_right_items" catchtap="onItemClick">
+    <block>
+      <image src="../../Picture/11.jpg"></image>
+    </block>
+    <text>南洋珍珠</text>
+  </view>
+  </view>

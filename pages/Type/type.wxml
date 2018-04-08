@@ -30,34 +30,33 @@
 
 < view class="nav_right">
 
-  
-    <view class="nav_right_items"  catchtap="onItemClick">
-        <block>
-          <image src="../../Picture/9.jpg"></image>
-        </block>
-        <text>18K 金钻石</text>
-    </view>
-  
 
-    <view class="nav_right_items"  catchtap="onItemClick">
-        <block>
-          <image src="../../Picture/11.jpg"></image>
-        </block>
-        <text>南洋珍珠</text>
-    </view>
+  <view class="nav_right_items" catchtap="onItemClick">
+    <block>
+      <image src="../../Picture/9.jpg"></image>
+    </block>
+    <text>18K 金钻石</text>
+  </view>
 
-    <view class="nav_right_items"  catchtap="onItemClick">
-        <block>
-          <image src="../../Picture/12.jpg"></image>
-        </block>
-        <text>18K 金钻石胸针</text>
-     
-    </view>
-    <view class="nav_right_items"  catchtap="onItemClick">
-        <block>
-          <image src="../../Picture/11.jpg"></image>
-        </block>
-        <text>南洋珍珠</text>
-    </view>
+
+  <view class="nav_right_items" catchtap="onItemClick">
+    <block>
+      <image src="../../Picture/11.jpg"></image>
+    </block>
+    <text>南洋珍珠</text>
+  </view>
+
+  <view class="nav_right_items" catchtap="onItemClick">
+    <block>
+      <image src="../../Picture/12.jpg"></image>
+    </block>
+    <text>18K 金钻石胸针</text>
 
   </view>
+  <view class="nav_right_items" catchtap="onItemClick">
+    <block>
+      <image src="../../Picture/11.jpg"></image>
+    </block>
+    <text>南洋珍珠</text>
+  </view>
+ </view>
