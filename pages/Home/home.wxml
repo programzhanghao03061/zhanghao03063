@@ -9,7 +9,7 @@
 <view class="button">
   <view class="nav_right_items" catchtap="onItemClick">
     <block>
-      <image src="../../Picture/9.jpg"></image>
+      <image src="http://btdxcx.com:3012/image/08AA938D17AC2873"></image>
     </block>
     <text>结緍戒指</text>
   </view>
@@ -17,28 +17,28 @@
 
   <view class="nav_right_items" catchtap="onItemClick">
     <block>
-      <image src="../../Picture/11.jpg"></image>
+      <image src="http://btdxcx.com:3012/image/3C655F2BE84CC721"></image>
     </block>
     <text>钻石对戒</text>
   </view>
 
   <view class="nav_right_items" catchtap="onItemClick">
     <block>
-      <image src="../../Picture/12.jpg"></image>
+      <image src="http://btdxcx.com:3012/image/412C5B2F7073FD42"></image>
     </block>
     <text>钻石男戒</text>
 
   </view>
   <view class="nav_right_items" catchtap="onItemClick">
     <block>
-      <image src="../../Picture/11.jpg"></image>
+      <image src="http://btdxcx.com:3012/image/EFBA08CE087B3819"></image>
     </block>
     <text>吊坠</text>
   </view>
 
   <view class="nav_right_items" catchtap="onItemClick">
     <block>
-      <image src="../../Picture/9.jpg"></image>
+      <image src="http://btdxcx.com:3012/image/74F9EB71BA8363D7"></image>
     </block>
     <text>套链</text>
   </view>
@@ -46,21 +46,21 @@
 
   <view class="nav_right_items" catchtap="onItemClick">
     <block>
-      <image src="../../Picture/11.jpg"></image>
+      <image src="http://btdxcx.com:3012/image/0147A12153F027AA"></image>
     </block>
     <text>时尚钻戒</text>
   </view>
 
   <view class="nav_right_items" catchtap="onItemClick">
     <block>
-      <image src="../../Picture/12.jpg"></image>
+      <image src="http://btdxcx.com:3012/image/3D1AEE387E04C8B3"></image>
     </block>
     <text>耳鉓</text>
 
   </view>
   <view class="nav_right_items" catchtap="onItemClick">
     <block>
-      <image src="../../Picture/11.jpg"></image>
+      <image src="http://btdxcx.com:3012/image/0F50CF0748892318"></image>
     </block>
     <text>手链</text>
   </view>
@@ -71,46 +71,64 @@
 </view>
 
 <view class="backView">
-  <view bindtap="goHome" class="warp">
-    <image src="http://www.runoob.com//wp-content/uploads/2015/06/img_flowers.jpg"></image>
-    <text class="name">名称: 钻石吊坠</text>
-    <text class="price">
-    <text style="color:#0000f1">RMB </text> 1288
-    <text style="color:#000091">立即购卖</text></text>
-    <!-- 倒计时 -->
-  </view>
+
+  
+  <text class="name">名称: 钻石吊坠</text>
+
+  <text class="price">
+    <text style="color:#0000f1">RMB </text> 1288  <text class="buy_button">立即购卖</text>
+  </text>
 </view>
 
 
-< view class="nav_right">
+< view class="product_list">
 
 
-  <view class="nav_right_items" catchtap="onItemClick">
-    <block>
-      <image src="../../Picture/9.jpg"></image>
-    </block>
-    <text>18K 金钻石</text>
+  <view class="product_list_items" mode="aspectFill" style="background-image: url('http://btdxcx.com:3012/image/23E6EB89455FD72E')" catchtap="onItemClick">
+    
+    <text class="name text-size">名称: 钻石吊坠</text>
+
+  <text class="price text-size" style='margin-top: 0px;'>
+    <text style="color:#0000f1">RMB </text> 1288  <text class="buy_button">立即购卖</text>
+  </text>
   </view>
 
 
-  <view class="nav_right_items" catchtap="onItemClick">
-    <block>
-      <image src="../../Picture/11.jpg"></image>
-    </block>
-    <text>南洋珍珠</text>
+  <view class="product_list_items"  catchtap="onItemClick">
+ 
+      <text class="more">轻奢百变  个性搭配</text>
+      <text class="more" style='margin-top: 0px;'>----</text>
+      <text class="more" style='margin-top: 0px;'>查看更多</text>
+  
   </view>
 
-  <view class="nav_right_items" catchtap="onItemClick">
-    <block>
-      <image src="../../Picture/12.jpg"></image>
-    </block>
-    <text>18K 金钻石胸针</text>
+  <view class="product_list_items" mode="aspectFill" style="background-image: url('http://btdxcx.com:3012/image/077998BC92DB4ACC')"  catchtap="onItemClick">
+    
+      <text class="name text-size">名称: 钻石吊坠</text>
+
+  <text class="price text-size" style='margin-top: 0px;'>
+    <text style="color:#0000f1">RMB </text> 1288  <text class="buy_button">立即购卖</text>
+  </text>
 
   </view>
-  <view class="nav_right_items" catchtap="onItemClick">
-    <block>
-      <image src="../../Picture/11.jpg"></image>
-    </block>
-    <text>南洋珍珠</text>
+  <view class="product_list_items" mode="aspectFill" style="background-image: url('http://btdxcx.com:3012/image/62A935D9EE72A2BB')"  catchtap="onItemClick">
+    
+      <text class="name text-size">名称: 钻石吊坠</text>
+
+  <text class="price text-size" style='margin-top: 0px;'>
+    <text style="color:#0000f1">RMB </text> 1288  <text class="buy_button">立即购卖</text>
+  </text>
   </view>
   </view>
+  <view class='space-line'>
+  </view>
+<view class="backView2">
+
+  
+  <text class="name2">名称: 钻石吊坠</text>
+
+  <text class="price">
+    <text style="color:#0000f1">RMB </text> 1288  <text class="buy_button">立即购卖</text>
+  </text>
+</view>
+ 

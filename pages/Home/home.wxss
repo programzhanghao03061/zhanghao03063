@@ -1,11 +1,11 @@
 .swiper {
-  height: 200px;
+  height: 400px;
   width: 100%;
   text-align: center;
 }
 
 .swiper image {
-  height: 200px;
+  height: 400px;
   width: 100%;
 }
 
@@ -61,89 +61,114 @@
 .status_column_text {
   width: 100%;
   height: 15px;
-  
 }
 
-.backView{
+.backView2 {
   width: 100%;
   height: 180px;
+  padding-top: 5px;
+  background-image: url("http://btdxcx.com:3012/image/6833E04777A4BB33");
+  background-repeat: round;
 }
 
 
 
-.warp {
-    height: 100%;
-    position: relative;
-}
-
-.warp image {
-    width: 100%;
-    height: 100%;
+.backView {
+  width: 100%;
+  height: 200px;
+  flex-direction: column;
+  background-image: url("http://btdxcx.com:3012/image/0A1981A54FE9A61B");
+  background-repeat: round;
 }
 
 .name {
-    width: 200px;
-    height: 20px;
-    line-height: 20px;
-    text-align: center;
-    color: black;
-    position: absolute;
-    top: 46%;
-    margin-top: -10px;
-    margin-left: -400px;
-    border-radius: 50%;
-   
+  width: 150px;
+  height: 20px;
+  float: left;
+  line-height: 20px;
+  margin-top: 110px;
+  color: black;
+  margin-left: 20px;
 }
 
 .price {
-    width: 200px;
-    height: 20px;
-    line-height: 20px;
-    text-align: center;
-    color: black;
-    position: absolute;
-    top: 46%;
-    margin-top: 10px;
-    margin-left: -380px;
-    border-radius: 50%;
-   
+  width: 200px;
+  height: 20px;
+  line-height: 20px;
+  margin-top: 10px;
+  float: left;
+  margin-left: 20px;
+  color: black;
+}
+.button {
+  width: 100%;
+  height: 180px;
+  border: 1px solid #c3c3c3;
+  /* flex-wrap：wrap ; */
+  display: flex;
+  justify-content: space-around;
+  padding: 10px 0px 0px 0px;
+  background: #e8e6e9;
+  flex-wrap: wrap;
+}
+.product_list {
+  /*右侧盒子使用了绝对定位*/
+  width: 100%;
+  height: 300px;
+  padding: 2px 2px 2px 0px;
+  display: flex;
+ justify-content: space-around;
+
+ flex-wrap: wrap;
+  background: grey;
 }
 
-.nav_right{  
-  /*右侧盒子使用了绝对定位*/  
+/*右侧栏list的item*/
 
-  top: 0;  
-  right: 0;  
-  
-  width: 100%;  
-  height: 100%;  
-  padding: 10px;  
-  box-sizing: border-box;  
-  background: grey;  
-} 
+.product_list_items {
+  /*浮动向左*/
+
+  /*每个item设置宽度是33.33%*/
+  width: 47%;
+  height: 150px;
+  background: grey;
+   margin-bottom: 5px;
+  background-repeat: round;
+  /* text-align: center; */
+}
 
 
-/*右侧栏list的item*/  
-.nav_right .nav_right_items{  
-  /*浮动向左*/  
-  float: left;  
-  /*每个item设置宽度是33.33%*/  
-  width: 50%;  
-  height: 150px;  
-  text-align: center;  
-}  
-.nav_right .nav_right_items image{  
-  /*被图片设置宽高*/  
-  width: 120px;  
-  height: 120px;  
-}  
-.nav_right .nav_right_items text{  
-  /*给text设成块级元素*/  
-  display: block;  
-  
-  font-size: 15px;  
-  /*设置文字溢出部分为...*/  
-  overflow: hidden;  
-  white-space: nowrap;  
-  text-overflow: ellipsis;  
-}  
+
+
+.buy_button {
+  background: #0000f1;
+  color: white;
+}
+.text-size{
+  font-size: 15px;
+}
+.more {
+  text-align: center;
+  width: 150px;
+  height: 20px;
+  float: left;
+  line-height: 20px;
+  margin-top: 60px;
+  color: black;
+  margin-left: 5px;
+}
+.space-line{
+  width: 100%;
+  background: grey;
+  height: 10px;
+}
+
+.name2 {
+  width: 150px;
+  height: 20px;
+  float: left;
+  line-height: 20px;
+  margin-top: 80px;
+  color: black;
+  margin-left: 20px;
+}
