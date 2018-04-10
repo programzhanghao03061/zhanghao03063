@@ -11,7 +11,8 @@
     "pages/MY/MyAdd/myadd",
     "pages/MY/NewAdd/newadd",
     "pages/MY/Coupon/coupon",
-    "pages/MY/BusinessAdd/business_add"
+    "pages/MY/BusinessAdd/business_add",
+    "pages/category/category"
   ],
   "window": {
     "backgroundTextStyle": "light",
@@ -31,7 +32,7 @@
         "selectedIconPath": "Picture/Home_Select.jpg"
       },
       {
-        "pagePath": "pages/Type/type",
+        "pagePath": "pages/category/category",
         "text": "分类",
         "iconPath": "Picture/TypeNoSelect.jpg",
         "selectedIconPath": "Picture/TypeSelect.jpg"

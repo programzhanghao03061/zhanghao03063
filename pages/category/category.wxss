@@ -1,0 +1,43 @@
+.text {
+  width: 100%;
+  height: 50px;
+  text-align: center;
+  line-height: 50px;
+  background: white;
+}
+
+.text2 {
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  line-height: 50px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.text3 {
+
+  background: #e3e3e3;
+  border: 1px solid #fff;
+}
+.spaceLine{
+  height: 10px;
+  width: 100%;
+  background: #e3e3e3;
+}
+
+.content{
+  padding: 20rpx 0 20rpx 20rpx;
+  border-bottom: 1px solid #f3f3f3;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.sm-img{
+  margin-right: 10rpx;
+   margin-left: auto;
+  width: 40rpx;
+  height: 40rpx;
+}

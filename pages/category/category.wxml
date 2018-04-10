@@ -1,0 +1,22 @@
+<view class='spaceLine'>
+</view>
+<view class="content" bindtap="toOrderList" >
+ 
+  <text>全部订单</text>
+  <image src="../../Picture/right.png" class="sm-img"></image>
+</view>
+<view class='spaceLine'>
+</view>
+<view wx:for="{{typeList}}">
+  <view class="text">{{item.typeName}}</view>
+  <view class="text2">
+    <view style="width: 49%;" wx:for="{{item.productList}}">
+
+      <view class="text3">
+        {{item.descri}}
+
+
+      </view>
+    </view>
+  </view>
+</view>
