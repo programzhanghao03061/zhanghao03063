@@ -2,11 +2,41 @@ const app = getApp()
 
 Page({
   data: {
-    listLi: [],
-    page: 1,
-    scrollTop: 0,
-    done: false,
-    hidden: true
+    productList: [
+      {
+        image: '/Picture/9.jpg',
+        Price: '1538',
+        goodsName: '18K金钻石珐琅',
+        SalesVoul: 18,
+      }, {
+        image: '/Picture/10.jpg',
+        Price: '1538',
+        goodsName: '18K金钻石珐',
+        SalesVoul: 18,
+       
+      }, {
+        image: '/Picture/11.jpg',
+        Price: '1538',
+        goodsName: '海水珍珠吊坠',
+        SalesVoul: 18,
+        
+      }
+      , {
+        image: '/Picture/12.jpg',
+        Price: '1538',
+        goodsName: '珐琅海水珍珠吊坠',
+        SalesVoul: 18,
+        
+        
+      }
+      , {
+        image: '/Picture/9.jpg',
+        Price: '1538',
+        goodsName: '珍珠吊坠',
+        SalesVoul: 18,
+      }
+    ],
+    nowtab: '全部订单'
   },
   onLoad: function (options) {
     this.getList(1);

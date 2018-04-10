@@ -1,62 +1,21 @@
-<view class="column sidemenu">
-  <view>
-    <li>
-      <a href="#flight" class="active">黄金</a>
-    </li>
-    <li>
-      <a href="#city">钻石</a>
-    </li>
-    <li>
-      <a href="#island">翡翠</a>
-    </li>
-    <li>
-      <a href="#food">和田玉</a>
-    </li>
-    <li>
-      <a href="#people">彩金</a>
-    </li>
-    <li>
-      <a href="#history">彩宝</a>
-    </li>
-    <li>
-      <a href="#oceans">珍珠</a>
-    </li>
-    <li>
-      <a href="#oceans">礼品</a>
-    </li>
-  </view>
+<view class="header flex-row space-around">
+  <view class="tab {{nowtab=='综合' ? 'tabActive' : ''}}" bindtap="switchTabs" data-nowtab='综合'>综合</view>
+  <view class="tab {{nowtab=='销量' ? 'tabActive' : ''}}" bindtap="switchTabs" data-nowtab='销量'>销量</view>
+  <view class="tab {{nowtab=='新品' ? 'tabActive' : ''}}" bindtap="switchTabs" data-nowtab='新品'>新品</view>
+  <view class="tab {{nowtab=='价格' ? 'tabActive' : ''}}" bindtap="switchTabs" data-nowtab='价格'>价格</view>
 </view>
 
 
+
 < view class="nav_right">
-
-
-  <view class="nav_right_items" catchtap="onItemClick">
-    <block>
-      <image src="../../Picture/9.jpg"></image>
-    </block>
-    <text>18K 金钻石</text>
+  <view class="nav_right_items" wx:for="{{productList}}">
+    <view class="temview">
+      <image src='{{item.image}}' mode="aspectFill"></image>
+    </view>
+    <view class='text1'>{{item.goodsName}}</view>
+    <view class="content" bindtap="toProductList">
+      <text style='font-size: 35rpx;'>￥{{item.Price}}</text>
+      <text class="sm-text">{{item.SalesVoul}}人已付款</text>
+    </view>
   </view>
-
-
-  <view class="nav_right_items" catchtap="onItemClick">
-    <block>
-      <image src="../../Picture/11.jpg"></image>
-    </block>
-    <text>南洋珍珠</text>
   </view>
-
-  <view class="nav_right_items" catchtap="onItemClick">
-    <block>
-      <image src="../../Picture/12.jpg"></image>
-    </block>
-    <text>18K 金钻石胸针</text>
-
-  </view>
-  <view class="nav_right_items" catchtap="onItemClick">
-    <block>
-      <image src="../../Picture/11.jpg"></image>
-    </block>
-    <text>南洋珍珠</text>
-  </view>
- </view>

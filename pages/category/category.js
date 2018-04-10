@@ -4,7 +4,7 @@ const app = getApp()
 
 Page({
   data: {
-    imageWidth: wx.getSystemInfoSync().windowWidth/2,
+
     typeList: [
       {
         typeName: '镶钻类型',
@@ -14,42 +14,42 @@ Page({
           descri: '群钻',
         }],
       },
-     
+
       {
         typeName: '求婚钻戒',
         productList: [{
           descri: 'Forever经典型',
         }, {
-            descri: 'My Heart系列',
+          descri: 'My Heart系列',
         }
           , {
-            descri: 'Marry Me&稀世粉钻',
+          descri: 'Marry Me&稀世粉钻',
         }
           , {
-            descri: 'I Swear系列',
-          }
+          descri: 'I Swear系列',
+        }
           , {
-            descri: 'Just You系列',
-          }
+          descri: 'Just You系列',
+        }
           , {
-            descri: 'Princess系列',
-          }
+          descri: 'Princess系列',
+        }
           , {
-            descri: 'True Love系列',
-          }
+          descri: 'True Love系列',
+        }
           , {
-            descri: 'Believe系列',
-          }
+          descri: 'Believe系列',
+        }
           , {
-            descri: 'Love line系列',
-          }
+          descri: 'Love line系列',
+        }
           , {
-            descri: 'Endless love系列',
-          }, {
-            descri: 'Wedding系列',
-          }]
-        },
-     
+          descri: 'Endless love系列',
+        }, {
+          descri: 'Wedding系列',
+        }]
+      },
+
 
       {
         typeName: '结婚钻戒',
@@ -65,11 +65,11 @@ Page({
         productList: [{
           descri: '吊坠',
         }, {
-            descri: '项链',
-          }, {
-            descri: '手链',
+          descri: '项链',
         }, {
-            descri: '耳钉',
+          descri: '手链',
+        }, {
+          descri: '耳钉',
         }],
       }
       , {
@@ -77,7 +77,7 @@ Page({
         productList: [{
           descri: 'My Heart系列',
         }, {
-            descri: 'True Love系列',
+          descri: 'True Love系列',
         }],
       }
       , {
@@ -85,18 +85,16 @@ Page({
         productList: [{
           descri: 'My Heart系列',
         }, {
-            descri: 'Forever系列',
+          descri: 'Forever系列',
         }],
       }
+    ],
+  },
 
-        ],
-
-
-
-
-
-    hasUserInfo: false,
-    canIUse: wx.canIUse('button.open-type.getUserInfo')
+  toProductList: function () {
+    wx.navigateTo({
+      url: '../Type/type'
+    })
   },
   //事件处理函数
   bindViewTap: function () {
@@ -131,13 +129,5 @@ Page({
         }
       })
     }
-  },
-  getUserInfo: function (e) {
-    console.log(e)
-    app.globalData.userInfo = e.detail.userInfo
-    this.setData({
-      userInfo: e.detail.userInfo,
-      hasUserInfo: true
-    })
   }
 })
