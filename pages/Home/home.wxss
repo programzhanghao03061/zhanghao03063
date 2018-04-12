@@ -1,11 +1,11 @@
 .swiper {
-  height: 400px;
+  height: 500px;
   width: 100%;
   text-align: center;
 }
 
 .swiper image {
-  height: 400px;
+  height: 500px;
   width: 100%;
 }
 

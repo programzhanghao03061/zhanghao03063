@@ -1,4 +1,9 @@
 {
-  "navigationBarTitleText": "珠宝生活馆",
-  "enablePullDownRefresh": true
+  "navigationBarTitleText": "萌饰会",
+
+  "enablePullDownRefresh": true,
+
+ 
+  "navigationBarBackgroundColor": "#fcc3e6",
+  "navigationBarTextStyle": "white"
 }
