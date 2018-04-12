@@ -1,0 +1,47 @@
+<view class="header">
+  <view class='integral'>可用积分</view>
+  <view class='integral1'>12880</view>
+  <view class="market" bindtap="toProductList">
+    <text class='text2'>积分商城</text>
+    <image src="../../../Picture/right.png" class="sm-img"></image>
+  </view>
+</view>
+
+<view class="spaceBigLine"></view>
+<view class="selecter flex-row space-around">
+  <view class="tab {{nowtab=='积分记录' ? 'tabActive' : ''}}" bindtap="switchTabs" data-nowtab='积分记录'>积分记录</view>
+  <view class="tab {{nowtab=='兑换记录' ? 'tabActive' : ''}}" bindtap="switchTabs" data-nowtab='兑换记录'>兑换记录</view>
+
+</view>
+
+
+<view class="content" wx:for="{{orderList}}" wx:if="{{nowtab=='积分记录' || item.status==nowtab}}">
+
+
+    <!-- <view class="topContent flex-row v-center">
+      <view class="goodsImg"><image src="/Picture/6.jpg" class="full-img" mode="aspectFit"></image></view>
+      
+      <view class="rightContent">
+        <view>订单编号：{{item.OrderNumber}}</view>
+        <view>{{item.goodsName}}</view>
+        <view>{{item.goodsNum}}件</view>
+      </view>
+    </view>
+
+
+    <view class="bottomContent flex-row space-between v-center">
+      <view>
+        <view>状态：<text class="color-red">{{item.status}}</text></view>
+        <view wx:if="{{item.status=='待付款'}}">合计：<text class="color-red">￥{{item.total}}</text></view>
+        <view wx:if="{{item.status=='待收货'}}">物流公司：<text class="color-red">{{item.logistics}}</text></view>
+      </view>
+      <button type="warn" size="mini" class="btn">去支付</button>
+    </view> -->
+  </view><!--  -->
+
+
+<view class="empty_tip ">
+  <image class="image" src="http://btdxcx.com:3012/image/08AA938D17AC2873" ></image>
+  <view class="classname">购物车竟然是空的</view>
+  <view class="color_888888">快去首页瞧瞧吧</view>
+</view>

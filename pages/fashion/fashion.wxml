@@ -1,0 +1,10 @@
+<view wx:for="{{actionList}}" bindtap="toActionList">
+  <image class='image' src='{{item.image}}'></image>
+  <view class="content" >
+    <view style='font-size: 35rpx;'>{{item.actionName}}</view>
+    <text class="sm-text">{{item.actionDesc}}</text>
+    
+  </view>
+<view class='SpaceLine'></view>
+
+</view>

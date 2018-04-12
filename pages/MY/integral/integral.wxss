@@ -1,0 +1,82 @@
+.header {
+  width: 100%;
+  height: 400rpx;
+  text-align: center;
+  background: radial-gradient(#fa5f4b, #eb3d3c);
+}
+
+.selecter {
+  border-top: 1px solid #e3e3e3;
+  height: 40px;
+  line-height: 40px;
+  background: white;
+}
+
+.spaceBigLine {
+  height: 8px;
+  width: 100%;
+  background: #f3f3f3;
+}
+
+.empty_tip {
+  height: 300px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /*垂直居中*/
+  justify-content: center; /*水平居中*/
+}
+
+.integral {
+  padding-top: 20px;
+  width: 100%;
+  font-size: 20px;
+  height: 30px;
+  line-height: 30px;
+  color: white;
+}
+
+.integral1 {
+  padding-top: 10px;
+  width: 100%;
+  font-size: 40px;
+  height: 40px;
+  line-height: 40px;
+  color: white;
+}
+
+.market {
+  margin-top: 10px;
+  width: 100%;
+  height: 40px;
+  line-height: 40px;
+  color: white;
+}
+
+.sm-img {
+  padding-left: 5px;
+  width: 15px;
+  height: 15px;
+}
+
+.text2 {
+  font-size: 35rpx;
+  height: 40px;
+  line-height: 40px;
+}
+
+.image {
+  height: 100px;
+  width: 100px;
+}
+
+.tab{
+ 
+  width: 50%;
+  text-align: center;
+  border-bottom: 2px solid #dedede;   
+}
+.tabActive{
+  border-bottom: 2px solid #e4393c;   
+  color: #e4393c;
+}

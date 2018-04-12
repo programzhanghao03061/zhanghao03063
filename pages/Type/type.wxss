@@ -67,3 +67,7 @@
   text-align: left;  
   font-size: 10px;
 }
+.tabActive{
+  border-bottom: 2px solid #e4393c;   
+  color: #e4393c;
+}

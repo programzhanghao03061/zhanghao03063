@@ -15,6 +15,12 @@ Page({
       url: '../logs/logs'
     })
   },
+  bindViewToOrder: function () {
+    wx.navigateTo({
+      url: '../MyOrder/myorder'
+      
+    })
+  },
   onLoad: function () {
     if (app.globalData.userInfo) {
       this.setData({

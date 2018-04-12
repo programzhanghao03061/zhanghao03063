@@ -12,7 +12,10 @@
     "pages/MY/NewAdd/newadd",
     "pages/MY/Coupon/coupon",
     "pages/MY/BusinessAdd/business_add",
-    "pages/category/category"
+    "pages/category/category",
+    "pages/fashion/fashion",
+    "pages/actionDetail/actionDetail",
+    "pages/MY/integral/integral"
   ],
   "window": {
     "backgroundTextStyle": "light",
@@ -28,28 +31,36 @@
       {
         "pagePath": "pages/Home/home",
         "text": "首页",
-        "iconPath": "Picture/Home_noSelect.jpg",
-        "selectedIconPath": "Picture/Home_Select.jpg"
+        "iconPath": "Picture/Home_noSelect.png",
+        "selectedIconPath": "Picture/Home_Select.png"
       },
       {
         "pagePath": "pages/category/category",
         "text": "分类",
-        "iconPath": "Picture/TypeNoSelect.jpg",
-        "selectedIconPath": "Picture/TypeSelect.jpg"
+        "iconPath": "Picture/TypeNoSelect.png",
+        "selectedIconPath": "Picture/TypeSelect.png"
+      }
+      
+      ,
+      {
+        "pagePath": "pages/fashion/fashion",
+        "text": "尚圈",
+        "iconPath": "Picture/fashionNoSelect.png",
+        "selectedIconPath": "Picture/fashionSelect.png"
       },
       {
         "pagePath": "pages/Shopping/shopping",
         "text": "购物车",
-        "iconPath": "Picture/ShoppingNoSelect.jpg",
-        "selectedIconPath": "Picture/ShoppingSelect.jpg"
+        "iconPath": "Picture/ShoppingNoSelect.png",
+        "selectedIconPath": "Picture/ShoppingSelect.png"
       },
       {
         "pagePath": "pages/MY/me/me",
         "text": "我的",
         "color": "ff0000",
         "selectedColor": "00ff00",
-        "iconPath": "Picture/MeNoSelect.jpg",
-        "selectedIconPath": "Picture/MeSelect.jpg"
+        "iconPath": "Picture/MeNoSelect.png",
+        "selectedIconPath": "Picture/MeSelect.png"
       }
     ]
   }

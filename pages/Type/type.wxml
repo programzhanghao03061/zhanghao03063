@@ -8,7 +8,8 @@
 
 
 < view class="nav_right">
-  <view class="nav_right_items" wx:for="{{productList}}">
+<view class="nav_right_items" wx:for="{{productList}}" wx:if="{{nowtab=='综合' || item.status==nowtab}}">
+  <!-- <view class="nav_right_items" wx:for="{{productList}}"> -->
     <view class="temview">
       <image src='{{item.image}}' mode="aspectFill"></image>
     </view>
@@ -18,4 +19,5 @@
       <text class="sm-text">{{item.SalesVoul}}人已付款</text>
     </view>
   </view>
+  <!-- </view> -->
   </view>

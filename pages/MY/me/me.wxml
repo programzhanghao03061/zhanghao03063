@@ -6,63 +6,111 @@
   <view class="level exp fs-16">门店经理</view>
 
 </view>
+<view class="orderName">我的订单</view>
+<view class="spaceLine"></view>
 
-<view class="container">
-  <view class="user-menu">
-    <view class="item">
-      <navigator url="/pages/MY/MyOrder/myorder" class="a">
-        <text class="icon order"></text>
-        <text class="txt">我的订单</text>
-      </navigator>
-    </view>
-    <view class="item">
-      <navigator url="/pages/Home/home" class="a">
-        <text class="icon coupon"></text>
-        <text class="txt">我的预约</text>
-      </navigator>
-    </view>
-    <view class="item no-border">
-      <navigator url="/pages/MY/MyAdd/myadd" class="a">
-        <text class="icon gift"></text>
-        <text class="txt">收货地址</text>
-      </navigator>
-    </view>
-    <view class="item">
-      <navigator url="/pages/MY/Coupon/coupon" class="a">
-        <text class="icon address"></text>
-        <text class="txt">优惠劵</text>
-      </navigator>
-    </view>
-    <view class="item">
-      <navigator url="/pages/Home/home" class="a">
-        <text class="icon security"></text>
-        <text class="txt">客服电话</text>
-      </navigator>
-    </view>
-    <view class="item no-border">
-      <navigator url="/pages/MY/BusinessAdd/business_add" class="a">
-        <text class="icon kefu"></text>
-        <text class="txt">卖家地址</text>
-      </navigator>
-    </view>
-    <view class="item">
-      <navigator url="../pages/Home/home" class="a">
-        <text class="icon address"></text>
-        <text class="txt">我的推荐码</text>
-      </navigator>
-    </view>
-    <view class="item">
-      <navigator url="url" class="a">
-        <text class="icon security"></text>
-        <text class="txt">会员积分</text>
-      </navigator>
-    </view>
-    <view class="item no-border">
-      <navigator url="url" class="a">
-        <text class="icon kefu"></text>
-        <text class="txt">三级分销</text>
-      </navigator>
-    </view>
-   
+<view class="button">
+  <view class="nav_right_items" catchtap="bindViewToOrder">
+    <block>
+      <image src="http://btdxcx.com:3012/image/08AA938D17AC2873"></image>
+    </block>
+    <text>全部订单</text>
   </view>
+
+
+  <view class="nav_right_items" catchtap="bindViewToOrder">
+    <block>
+      <image src="http://btdxcx.com:3012/image/3C655F2BE84CC721"></image>
+    </block>
+    <text>待付款</text>
+  </view>
+
+  <view class="nav_right_items" catchtap="bindViewToOrder">
+    <block>
+      <image src="http://btdxcx.com:3012/image/412C5B2F7073FD42"></image>
+    </block>
+    <text>待收货</text>
+
+  </view>
+  <view class="nav_right_items" navigator catchtap="bindViewToOrder">
+    <block>
+      <image src="http://btdxcx.com:3012/image/EFBA08CE087B3819"></image>
+    </block>
+    <text>已完成</text>
+  </view>
+
+</view>
+
+<view class="spaceBigLine"></view>
+<view class="user-menu">
+
+  <view class="item">
+    <navigator url="/pages/MY/Coupon/coupon" class="a">
+      <text class="icon order"></text>
+      <text class="txt">优惠券</text>
+    </navigator>
+  </view>
+
+  <view class="item">
+    <navigator url="/pages/MY/integral/integral" class="a">
+      <text class="icon security"></text>
+      <text class="txt">会员积分</text>
+    </navigator>
+  </view>
+  <view class="item no-border">
+    <navigator url="/pages/MY/MyAdd/myadd" class="a">
+      <text class="icon gift"></text>
+      <text class="txt">收货地址</text>
+    </navigator>
+  </view>
+  <view class="item">
+    <navigator url="/pages/Home/home" class="a">
+      <text class="icon coupon"></text>
+      <text class="txt">我要代言</text>
+    </navigator>
+  </view>
+
+  <view class="item">
+    <navigator url="/pages/MY/Coupon/coupon" class="a">
+      <text class="icon address"></text>
+      <text class="txt">收藏夹</text>
+    </navigator>
+  </view>
+  <view class="item no-border">
+    <navigator url="/pages/MY/BusinessAdd/business_add" class="a">
+      <text class="icon kefu"></text>
+      <text class="txt">店铺地址</text>
+    </navigator>
+  </view>
+  <!-- <view class="item">
+    <navigator url="/pages/Home/home" class="a">
+      <text class="icon security"></text>
+      <text class="txt">客服电话</text>
+    </navigator>
+  </view>
+  <view class="item no-border">
+    <navigator url="/pages/MY/BusinessAdd/business_add" class="a">
+      <text class="icon kefu"></text>
+      <text class="txt">卖家地址</text>
+    </navigator>
+  </view>
+  <view class="item">
+    <navigator url="../pages/Home/home" class="a">
+      <text class="icon address"></text>
+      <text class="txt">我的推荐码</text>
+    </navigator>
+  </view>
+  <view class="item">
+    <navigator url="url" class="a">
+      <text class="icon security"></text>
+      <text class="txt">会员积分</text>
+    </navigator>
+  </view>
+  <view class="item no-border">
+    <navigator url="url" class="a">
+      <text class="icon kefu"></text>
+      <text class="txt">三级分销</text>
+    </navigator> -->
+  <!-- </view> -->
+
 </view>

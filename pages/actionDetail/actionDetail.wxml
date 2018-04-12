@@ -1,0 +1,20 @@
+<view wx:for="{{actionList}}" >
+  <image class='image' src='{{item.image}}'></image>
+  <view >
+    <view class='sm-name'>{{item.actionName}}</view>
+    <view class='SpaceLine'></view>
+    <view class="sm-text">{{item.actionLocation}}</view>
+    <view class='SpaceLine'></view>
+    <view class="sm-text">{{item.actionTime}}</view>
+    <view class='SpaceLine'></view>
+    <view class="sm-text">{{item.actionDesc}}</view>
+
+  </view>
+  <view class='SpaceLineBig'></view>
+   <view class="sm-name">活动详情</view>
+   <view wx:for="{{item.actionDetail}}" >
+     <image class='imagebig' src='{{item.image}}'></image>
+     <view class="sm-textBig">{{item.actionDesc}}</view>
+   </view>
+
+</view>

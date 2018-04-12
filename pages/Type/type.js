@@ -36,7 +36,7 @@ Page({
         SalesVoul: 18,
       }
     ],
-    nowtab: '全部订单'
+    nowtab: '综合'
   },
   onLoad: function (options) {
     this.getList(1);

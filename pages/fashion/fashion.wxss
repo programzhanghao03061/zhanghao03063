@@ -1,0 +1,18 @@
+.image{
+  height: 150px;
+  width: 100%;
+}
+.content{
+  padding-left: 10px;
+
+}
+.SpaceLine{
+  height: 5px;
+  width: 100%;
+  background: #f3f3f3;
+}
+.sm-text
+{
+  font-size: 30rpx;
+  color: grey;
+}
